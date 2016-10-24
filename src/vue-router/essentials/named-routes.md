@@ -10,7 +10,7 @@ order: 6
 const router = new VueRouter({
   routes: [
     {
-      path: '/user/:id',
+      path: '/user/:userid',
       name: 'user',
       component: User
     }
